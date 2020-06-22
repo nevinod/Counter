@@ -1,7 +1,7 @@
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import { Display } from './Display.js'
 
-class ClassApp extends Component {
+class ClassApp extends React.Component {
   constructor(props) {
     super(props)
     this.state = { count: 0 }
